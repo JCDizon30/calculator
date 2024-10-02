@@ -1,38 +1,82 @@
 .App {
+  box-sizing: border-box;
   text-align: center;
+  margin-top: 6em;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  background-color: #131313;
+  color: #ffff;
+  max-width: 600px;
+  padding: 20px 0 20px 0 ;
+  border-radius: 5px;
+  margin: auto;
+  margin-bottom: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.CalcContainer {
+  max-width: 400px;
+  height: auto;
+  margin: auto;
+  background-color: #131313;
+  border-radius: 15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.DispContainer {
+  padding: 25px;
+  background-color:  #131313;
+  border-radius: 5px;
+  width: 300px;
+  margin-left: 28px;
+  height: 8vh;
+}
+
+.Display {
+  font-size: 35px;
+  text-align: right;
+  margin-top: 40px;
+  color: #ffff;
+  padding-bottom: 20px;
+  border-bottom: 3px rgba(128, 128, 128, 0.116) solid;
+}
+
+.ButtonsContainer {
+  margin-top: 30px;
+}
+
+.ButtonsContainer button {
+  font-size: 30px;
+  padding: 20px 30px 20px 30px;
+  border-radius: 15px;
+  margin: 7px;
+  background-color: #131313;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-box5 button {
+  font-size: 30px;
+  padding: 20px 135px 20px 135px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  background-color: #131313;
+  color: #ff8800;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.btn-box5 button:hover {
+  background-color: #ff8800;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-box5 button:active {
+  background-color: #cc6e03;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:hover {
+  background-color: rgba(29, 29, 29, 0.979);
 }
+
