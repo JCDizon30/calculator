@@ -66,7 +66,7 @@ function App() {
             <Key label={1} onClick={handleButtonClick} />
             <Key label={2} onClick={handleButtonClick} />
             <Key label={3} onClick={handleButtonClick} />
-            <Key label={'−'} onClick={handleButtonClick} />
+            <Key label={'-'} onClick={handleButtonClick} />
           </div>
           <div className="btn-box4">
             <Key label={'C'} onClick={handleButtonClick}/>
