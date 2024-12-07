@@ -1,61 +1,82 @@
 .App {
+  box-sizing: border-box;
   text-align: center;
-  font-family: Arial, sans-serif; 
-  margin: 20px; 
+  margin-top: 6em;
+
 }
 
-.DisplayContainer {
-  border: 3px solid #333;
-  width: 600px;
+h1 {
+  background-color: #131313;
+  color: #ffff;
+  max-width: 600px;
+  padding: 20px 0 20px 0 ;
+  border-radius: 5px;
   margin: auto;
-  background-color: #f4f4f4;
-  border-radius: 10px; 
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); 
+  margin-bottom: 30px;
+}
+
+.CalcContainer {
+  max-width: 400px;
+  height: auto;
+  margin: auto;
+  background-color: #131313;
+  border-radius: 15px;
 }
 
 .DispContainer {
-  padding: 10px;
-  border: 2px solid #333;
-  height: 60px;
-  background-color: #e0e0e0;
-  border-radius: 5px; 
+  padding: 25px;
+  background-color:  #131313;
+  border-radius: 5px;
+  width: 300px;
+  margin-left: 28px;
+  height: 8vh;
 }
 
 .Display {
-  font-size: 2em;
+  font-size: 35px;
   text-align: right;
-  padding-right: 10px;
-  color: #000000;
+  margin-top: 40px;
+  color: #ffff;
+  padding-bottom: 20px;
+  border-bottom: 3px rgba(128, 128, 128, 0.116) solid;
 }
 
 .ButtonsContainer {
-  border: 2px solid #333;
-  height: 400px;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px; 
-  background-color: #d9d9d9;
-  padding: 10px;
+  margin-top: 30px;
 }
 
-.ButtonsContainer > button {
-  font-size: 1.5em;
-  padding: 15px;
-  background-color: #c4c4c4;
-  border: 1px solid #333;
-  color: #000000;
+.ButtonsContainer button {
+  font-size: 30px;
+  padding: 20px 30px 20px 30px;
+  border-radius: 15px;
+  margin: 7px;
+  background-color: #131313;
+  color: white;
   cursor: pointer;
-  transition: background-color 0.2s;
-  border-radius: 5px; 
 }
 
-.ButtonsContainer > button:hover {
-  background-color: #b0b0b0;
+.btn-box5 button {
+  font-size: 30px;
+  padding: 20px 135px 20px 135px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  background-color: #131313;
+  color: #ff8800;
+  cursor: pointer;
+  transition: 0.2s ease;
 }
 
-.ButtonsContainer > .surname {
-  grid-column: span 4; 
-  background-color: #a8a8a8;
-  color: #000000;
-  font-weight: bold; 
+.btn-box5 button:hover {
+  background-color: #ff8800;
+  color: white;
 }
+
+.btn-box5 button:active {
+  background-color: #cc6e03;
+  color: white;
+}
+
+button:hover {
+  background-color: rgba(29, 29, 29, 0.979);
+}
+
