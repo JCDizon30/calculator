@@ -76,7 +76,7 @@ function App() {
           </div>
         </div>
         <div className="btn-box5">
-          <Key label={'DIZON'} onClick={handleSurnameClick} /> {}
+          <Key label={'NAME'} onClick={handleSurnameClick} /> {}
         </div>
         
       </div>
